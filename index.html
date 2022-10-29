@@ -1,0 +1,427 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Meni</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="meni-style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+  
+<div class="container">
+  <div class="navbar">
+    <div class="icons">
+      <ul class="icons-header">
+        <li class="cart-header">
+          <a href="">
+          <i class="material-icons">shopping_bag</i>
+            <span class="cart-count">0</span>
+          </a></li>
+        <li>
+          <select class="selectpicker" data-width="fit">
+    <option>HR</option>
+  <option>EN</option>
+</select>
+        </li>
+             </ul>
+      </div>
+  </div>
+    
+  <div class="section-header">
+  <div class="section-heading">
+  <h2 class="title">Meni</h2>
+  </div>
+  </div>
+
+  <ul id="menu-nav" class="nav nav-pills red">
+    <li id="tabs"><a id="defaultOpen" data-toggle="tab" href="#hrana">Hrana</a></li>
+    <li id="tabs"><a data-toggle="tab" href="#pivo">Pivo</a></li>
+    <li id="tabs" ><a data-toggle="tab" href="#sokovi">Sokovi</a></li>
+  <li id="tabs" ><a data-toggle="tab" href="#pivo">Pivo</a></li>
+    <li id="tabs" ><a data-toggle="tab" href="#sokovi">Sokovi</a></li>
+    <li id="tabs" ><a data-toggle="tab" href="#pivo">Pivo</a></li>
+    <li id="tabs" ><a data-toggle="tab" href="#sokovi">Sokovi</a></li>
+  
+      
+    </ul>                                                                                            
+
+  <div class="tab-content">
+    <div id="hrana" class="tab-pane fade in active">
+      <div class="row">
+                <div class="rs-menu-list col-md-6">  
+      <h3>Cheeseburger</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p></div>
+          <div class="menu-pro-right col-md-6">
+            <div class="pro-icon col-md-3">
+              <div class="icon-box">
+                <img src="https://img.icons8.com/ios-glyphs/30/000000/cheeseburger.png"/>
+              </div>
+            </div>
+            <div class="pro-price col-md-3"><h6 class="menuh6">32,00kn</h6>
+            </div>
+            <div class="pro-cart col-md-5">
+              <button type="button"id="modalpopup" class="btn btn-lg" data-toggle="modal" data-target="#myModal1">Dodaj<i class="material-icons cart">shopping_cart</i></button>
+              <div class="modal fade" id="myModal1" role="dialog">
+    <div id="modalcustom" class="modal-dialog modal-sm">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div id="header-modal" class="modal-header">
+          <button type="button" id="btn-close" class="close" data-dismiss="modal">&times;</button>
+          <h4 id="title-modal" class="modal-title">Proizvod je dodan u košaricu</h4>
+        </div>
+        <div class="row">
+        <div id="custom-body" class="modal-body">
+          <div class="col-md-12">
+          <img src="https://i.imgur.com/xmAr8Xu.jpeg">
+        </div></div>
+        </div>
+        <div id="custom-footer"class="modal-footer">
+          <button id="btn-custom" type="button" class="btn btn-default" data-dismiss="modal">Nastavi kupovati</button>
+          <button id="btn-custom" type="button" class="btn btn-default">Košarica</button>
+        </div>
+      </div>
+    </div>
+  </div>
+            </div>
+            </div>
+      </div>
+      
+      
+      <div class="row">
+                <div class="rs-menu-list col-md-6">
+      <h3>Hamburger</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> </div>
+          <div class="menu-pro-right col-md-6">
+            <div class="pro-icon col-md-3">
+              <div class="icon-box">
+                <img src="https://img.icons8.com/ios-glyphs/30/000000/cheeseburger.png"/>
+              </div>
+            </div>
+            <div class="pro-price col-md-3"><h6 class="menuh6">32,00kn</h6>
+            </div>
+            <div class="pro-cart col-md-5">
+              <button type="button"id="modalpopup" class="btn btn-lg" data-toggle="modal" data-target="#myModal2">Dodaj<i class="material-icons cart">shopping_cart</i></button>
+              <div class="modal fade" id="myModal2" role="dialog">
+    <div id="modalcustom" class="modal-dialog modal-sm">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div id="header-modal" class="modal-header">
+          <button type="button" id="btn-close" class="close" data-dismiss="modal">&times;</button>
+          <h4 id="title-modal" class="modal-title">Proizvod je dodan u košaricu</h4>
+        </div>
+        <div class="row">
+        <div id="custom-body" class="modal-body">
+          <div class="col-md-12">
+          <img src="https://i.imgur.com/N4O9dXj.jpeg">
+        </div></div>
+        </div>
+        <div id="custom-footer"class="modal-footer">
+          <button id="btn-custom" type="button" class="btn btn-default" data-dismiss="modal">Nastavi kupovati</button>
+          <button id="btn-custom" type="button" class="btn btn-default">Košarica</button>
+        </div>
+      </div>
+    </div>
+  </div>
+            </div>
+            </div>
+      </div>
+        
+      
+      <div class="row">
+                <div class="rs-menu-list col-md-6">
+      <h3>Double Cheeseburger</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> </div>
+          <div class="menu-pro-right col-md-6">
+            <div class="pro-icon col-md-3">
+              <div class="icon-box">
+                <img src="https://img.icons8.com/ios-glyphs/30/000000/cheeseburger.png"/>
+              </div>
+            </div>
+            <div class="pro-price col-md-3"><h6 class="menuh6">32,00kn</h6>
+            </div>
+            <div class="pro-cart col-md-5">
+              <button type="button"id="modalpopup" class="btn btn-lg" data-toggle="modal" data-target="#myModal3">Dodaj<i class="material-icons cart">shopping_cart</i></button>
+              <div class="modal fade" id="myModal3" role="dialog">
+    <div id="modalcustom" class="modal-dialog modal-sm">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div id="header-modal" class="modal-header">
+          <button type="button" id="btn-close" class="close" data-dismiss="modal">&times;</button>
+          <h4 id="title-modal" class="modal-title">Proizvod je dodan u košaricu</h4>
+        </div>
+        <div class="row">
+        <div id="custom-body" class="modal-body">
+          <div class="col-md-12">
+          <img src="https://static.onecms.io/wp-content/uploads/sites/52/2019/09/26/double-cheeseburgers-with-special-ranch-0917-103053997.jpg">
+        </div></div>
+        </div>
+        <div id="custom-footer"class="modal-footer">
+          <button id="btn-custom" type="button" class="btn btn-default" data-dismiss="modal">Nastavi kupovati</button>
+          <button id="btn-custom" type="button" class="btn btn-default">Košarica</button>
+        </div>
+      </div>
+    </div>
+  </div>
+            </div>
+            </div>
+      </div>
+        
+      </div>
+    <div id="pivo" class="tab-pane fade in active">    
+        <div class="row">
+    
+                <div class="rs-menu-list col-md-6">  
+      <h3>Heineken</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> </div>
+          <div class="menu-pro-right col-md-6">
+            <div class="pro-icon col-md-3">
+              <div class="icon-box">
+                <img src="https://img.icons8.com/ios-glyphs/30/000000/cheeseburger.png"/>
+              </div>
+            </div>
+            <div class="pro-price col-md-3"><h6 class="menuh6">32,00kn</h6>
+            </div>
+            <div class="pro-cart col-md-5">
+              <button type="button"id="modalpopup" class="btn btn-lg" data-toggle="modal" data-target="#myModal4">Dodaj<i class="material-icons cart">shopping_cart</i></button>
+              <div class="modal fade" id="myModal4" role="dialog">
+    <div id="modalcustom" class="modal-dialog modal-sm">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div id="header-modal" class="modal-header">
+          <button type="button" id="btn-close" class="close" data-dismiss="modal">&times;</button>
+          <h4 id="title-modal" class="modal-title">Proizvod je dodan u košaricu</h4>
+        </div>
+        <div class="row">
+        <div id="custom-body" class="modal-body">
+          <div class="col-md-12">
+          <img src="https://d17zv3ray5yxvp.cloudfront.net/variants/1Twnp8nJuQBBW3BhoUPV1ad2/57ed05bea98bceae5f0eaada26b69cee6c61471d3030f7123d212844a35eba04">
+        </div></div>
+        </div>
+        <div id="custom-footer"class="modal-footer">
+          <button id="btn-custom" type="button" class="btn btn-default" data-dismiss="modal">Nastavi kupovati</button>
+          <button id="btn-custom" type="button" class="btn btn-default">Košarica</button>
+        </div>
+      </div>
+    </div>
+  </div>
+            </div>
+            </div>
+          </div>  
+        <div class="row">
+    
+                <div class="rs-menu-list col-md-6">
+      <h3>Staropramen</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> </div>
+          <div class="menu-pro-right col-md-6">
+            <div class="pro-icon col-md-3">
+              <div class="icon-box">
+                <img src="https://img.icons8.com/ios-glyphs/30/000000/cheeseburger.png"/>
+              </div>
+            </div>
+            <div class="pro-price col-md-3"><h6 class="menuh6">32,00kn</h6>
+            </div>
+            <div class="pro-cart col-md-5">
+              <button type="button"id="modalpopup" class="btn btn-lg" data-toggle="modal" data-target="#myModal5">Dodaj<i class="material-icons cart">shopping_cart</i></button>
+              <div class="modal fade" id="myModal5" role="dialog">
+    <div id="modalcustom" class="modal-dialog modal-sm">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div id="header-modal" class="modal-header">
+          <button type="button" id="btn-close" class="close" data-dismiss="modal">&times;</button>
+          <h4 id="title-modal" class="modal-title">Proizvod je dodan u košaricu</h4>
+        </div>
+        <div class="row">
+        <div id="custom-body" class="modal-body">
+          <div class="col-md-12">
+          <img src="data:image/jpeg;base64,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">
+        </div></div>
+        </div>
+        <div id="custom-footer"class="modal-footer">
+          <button id="btn-custom" type="button" class="btn btn-default" data-dismiss="modal">Nastavi kupovati</button>
+          <button id="btn-custom" type="button" class="btn btn-default">Košarica</button>
+        </div>
+      </div>
+    </div>
+  </div>
+            </div>
+            </div>
+      </div>
+        <div class="row">
+    
+                <div class="rs-menu-list col-md-6">
+      <h3>Tuborg</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> </div>
+          <div class="menu-pro-right col-md-6">
+            <div class="pro-icon col-md-3">
+              <div class="icon-box">
+                <img src="https://img.icons8.com/ios-glyphs/30/000000/cheeseburger.png"/>
+              </div>
+            </div>
+            <div class="pro-price col-md-3"><h6 class="menuh6">32,00kn</h6>
+            </div>
+            <div class="pro-cart col-md-5">
+              <button type="button"id="modalpopup" class="btn btn-lg" data-toggle="modal" data-target="#myModal6">Dodaj<i class="material-icons cart">shopping_cart</i></button>
+              <div class="modal fade" id="myModal6" role="dialog">
+    <div id="modalcustom" class="modal-dialog modal-sm">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div id="header-modal" class="modal-header">
+          <button type="button" id="btn-close" class="close" data-dismiss="modal">&times;</button>
+          <h4 id="title-modal" class="modal-title">Proizvod je dodan u košaricu</h4>
+        </div>
+        <div class="row">
+        <div id="custom-body" class="modal-body">
+          <div class="col-md-12">
+          <img src="https://www.ppkbjelovar.com/EasyEdit/UserFiles/Catalog/pivo-tubgreen-05l-27436/pivo-tubgreen-05l-27436-637390632362195015_900_900.jpeg">
+        </div></div>
+        </div>
+        <div id="custom-footer"class="modal-footer">
+          <button id="btn-custom" type="button" class="btn btn-default" data-dismiss="modal">Nastavi kupovati</button>
+          <button id="btn-custom" type="button" class="btn btn-default">Košarica</button>
+        </div>
+      </div>
+    </div>
+  </div>
+            </div>
+            
+      </div></div>
+      </div>
+    <div id="sokovi" class="tab-pane fade in active">
+      <div class="row">
+                <div class="rs-menu-list col-md-6">  
+      <h3>Fanta</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> </div>
+          <div class="menu-pro-right col-md-6">
+            <div class="pro-icon col-md-3">
+              <div class="icon-box">
+                <img src="https://img.icons8.com/ios-glyphs/30/000000/cheeseburger.png"/>
+              </div>
+            </div>
+            <div class="pro-price col-md-3"><h6 class="menuh6">32,00kn</h6>
+            </div>
+            <div class="pro-cart col-md-5">
+              <button type="button"id="modalpopup" class="btn btn-lg" data-toggle="modal" data-target="#myModal7">Dodaj<i class="material-icons cart">shopping_cart</i></button>
+              <div class="modal fade" id="myModal7" role="dialog">
+    <div id="modalcustom" class="modal-dialog modal-sm">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div id="header-modal" class="modal-header">
+          <button type="button" id="btn-close" class="close" data-dismiss="modal">&times;</button>
+          <h4 id="title-modal" class="modal-title">Proizvod je dodan u košaricu</h4>
+        </div>
+        <div class="row">
+        <div id="custom-body" class="modal-body">
+          <div class="col-md-12">
+          <img src="https://i0.wp.com/www.tim99.shop/wp-content/uploads/2020/05/10035.png?fit=256%2C256&ssl=1">
+        </div></div>
+        </div>
+        <div id="custom-footer"class="modal-footer">
+          <button id="btn-custom" type="button" class="btn btn-default" data-dismiss="modal">Nastavi kupovati</button>
+          <button id="btn-custom" type="button" class="btn btn-default">Košarica</button>
+        </div>
+      </div>
+    </div>
+  </div>
+            </div>
+            </div>
+      </div>  
+      <div class="row">
+    
+                <div class="rs-menu-list col-md-6">
+      <h3>Sprite</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> </div>
+          <div class="menu-pro-right col-md-6">
+            <div class="pro-icon col-md-3">
+              <div class="icon-box">
+                <img src="https://img.icons8.com/ios-glyphs/30/000000/cheeseburger.png"/>
+              </div>
+            </div>
+            <div class="pro-price col-md-3"><h6 class="menuh6">32,00kn</h6>
+            </div>
+            <div class="pro-cart col-md-5">
+              <button type="button"id="modalpopup" class="btn btn-lg" data-toggle="modal" data-target="#myModal8">Dodaj<i class="material-icons cart">shopping_cart</i></button>
+              <div class="modal fade" id="myModal8" role="dialog">
+    <div id="modalcustom" class="modal-dialog modal-sm">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div id="header-modal" class="modal-header">
+          <button type="button" id="btn-close" class="close" data-dismiss="modal">&times;</button>
+          <h4 id="title-modal" class="modal-title">Proizvod je dodan u košaricu</h4>
+        </div>
+        <div class="row">
+        <div id="custom-body" class="modal-body">
+          <div class="col-md-12">
+          <img src="https://hiloplayers.org/wp-content/uploads/2020/07/Sprite.jpg">
+        </div></div>
+        </div>
+        <div id="custom-footer"class="modal-footer">
+          <button id="btn-custom" type="button" class="btn btn-default" data-dismiss="modal">Nastavi kupovati</button>
+          <button id="btn-custom" type="button" class="btn btn-default">Košarica</button>
+        </div>
+      </div>
+    </div>
+  </div>  
+            </div>
+            </div>
+      </div>
+      <div class="row">
+    
+                <div class="rs-menu-list col-md-6">
+      <h3>Coca Cola</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> </div>
+          <div class="menu-pro-right col-md-6">
+            <div class="pro-icon col-md-3">
+              <div class="icon-box">
+                <img src="https://img.icons8.com/ios-glyphs/30/000000/cheeseburger.png"/>
+              </div>
+            </div>
+            <div class="pro-price col-md-3"><h6 class="menuh6">32,00kn</h6>
+            </div>
+            <div class="pro-cart col-md-5">
+              <button type="button"id="modalpopup" class="btn btn-lg" data-toggle="modal" data-target="#myModal9">Dodaj<i class="material-icons cart">shopping_cart</i></button>
+              <div class="modal fade" id="myModal9" role="dialog">
+   <div id="modalcustom" class="modal-dialog modal-sm">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div id="header-modal" class="modal-header">
+          <button type="button" id="btn-close" class="close" data-dismiss="modal">&times;</button>
+          <h4 id="title-modal" class="modal-title">Proizvod je dodan u košaricu</h4>
+        </div>
+        <div class="row">
+        <div id="custom-body" class="modal-body">
+          <div class="col-md-12">
+          <img src="https://d17zv3ray5yxvp.cloudfront.net/variants/tJ5BoEmwfcRdEsD9PMXMMbyh/57ed05bea98bceae5f0eaada26b69cee6c61471d3030f7123d212844a35eba04">
+        </div></div>
+        </div>
+        <div id="custom-footer"class="modal-footer">
+          <button id="btn-custom" type="button" class="btn btn-default" data-dismiss="modal">Nastavi kupovati</button>
+          <button id="btn-custom" type="button" class="btn btn-default">Košarica</button>
+        </div>
+      </div>
+    </div>
+  </div>
+            </div>
+            </div>
+      </div>
+      </div>
+  </div>
+
+    </div>
+</body>
+<script>document.getElementById("defaultOpen").click();</script>
+</html>
